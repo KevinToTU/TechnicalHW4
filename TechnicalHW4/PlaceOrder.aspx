@@ -2,12 +2,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <h1>Order Meds Here!</h1>
-    <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-        <asp:ListItem>Cat Medicine</asp:ListItem>
-        <asp:ListItem>Dog Medicine</asp:ListItem>
-        <asp:ListItem>Hamster Medicine</asp:ListItem>
-        <asp:ListItem>Lizard Medicine</asp:ListItem>
-    </asp:CheckBoxList>
+
+    <div class="radio">
+        <label><input type="radio" name="optradio" checked>Cat Medicine</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="optradio" checked>Dog Medicine</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="optradio">Hamster Medicine</label>
+    </div>
+    <div class="radio disabled">
+        <label><input type="radio" name="optradio" disabled>Lizard Medicine(unavailable)</label>
+    </div>
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Submit Order" />
+    <a href="#" class="btn btn-success" role="button">Place Order</a>
 </asp:Content>

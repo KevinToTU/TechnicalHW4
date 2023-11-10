@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace TechnicalHW4
 {
-    public partial class YourMeds1 : System.Web.UI.Page
+    public partial class YourMeds : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
