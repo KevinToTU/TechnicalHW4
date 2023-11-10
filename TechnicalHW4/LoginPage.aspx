@@ -7,6 +7,7 @@
 </p>
 <p>Password:<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 </p>
+    <p>&nbsp;</p>
 <p>
     <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
 </p>

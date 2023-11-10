@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/464/040/original/vector-dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background.jpg");
+    background-image: url("https://img.freepik.com/free-vector/cute-playful-footprint-pattern-background-fauna-fun_1017-44713.jpg?w=1800&t=st=1699582917~exp=1699583517~hmac=d421631740382ecbee3868e2838f7c4f2b180207a98f033f35f1c8784050977e");
     background-size: 2000px 1000px;
     color: #294107;
     font-family: 'Comic Sans MS', monospace;
@@ -11,18 +11,54 @@ h1 {
     font-size: 35px;
     font-weight: bold;
     font-style: italic;
+    font-family: 'Comic Sans MS', monospace;
 }
 
-#body-center {
-    width: 24%;
+.navbar {
+    background-color: dimgray !important;
+    color: black !important;
+    font-family: 'Comic Sans MS', monospace !important;
+}
+
+.navbar-nav {
+    color: black !important;
+}
+
+.navbar-brand {
+    color: black !important;
+}
+
+.navbar-newlink {
+    color: black !important;
+}
+
+    .navbar-newlink:hover {
+        color: yellow !important;
+    }
+
+#body-content {
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', monospace;
     border: 2px solid #ccc;
+    background-color: dimgray;
     padding: 20px;
     border-radius: 20px;
     text-align: left;
 }
 
-.backgroundB {
-    background-color: #555555;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: dimgray;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-top: 2px solid #292929;
 }

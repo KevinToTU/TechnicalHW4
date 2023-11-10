@@ -6,6 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="PedMedsUIStyle.css">
     <title><%: Page.Title %> - PET MEDS UI</title>
 
     <asp:PlaceHolder runat="server">
@@ -50,17 +51,20 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/LoginPage">Login Page</a></li>
-                        <li><a runat="server" href="~/YourAccount">Your Account</a></li>
-                        <li><a runat="server" href="~/PlaceOrder">Place Order</a></li>
-                        <li><a runat="server" href="~/ContactPage">Contact Us</a></li>
+                        <li><a class="navbar-newlink" runat="server" href="~/LoginPage">Login Page</a></li>
+                        <li><a class="navbar-newlink" runat="server" href="~/YourAccount">Your Account</a></li>
+                        <li><a class="navbar-newlink" runat="server" href="~/YourMeds">Your Meds</a></li>
+                        <li><a class="navbar-newlink" runat="server" href="~/PlaceOrder">Place Order</a></li>
+                        <li><a class="navbar-newlink" runat="server" href="~/ContactPage">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
+        <div class="container">
+            <div id="body-content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - Kevin To</p>
             </footer>

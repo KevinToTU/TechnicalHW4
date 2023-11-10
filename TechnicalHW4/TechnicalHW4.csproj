@@ -125,6 +125,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="YourMeds.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="PedMedsUIStyle.css" />
     <Content Include="YourAccount.aspx" />
@@ -240,6 +241,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="YourMeds.aspx.cs">
+      <DependentUpon>YourMeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YourMeds.aspx.designer.cs">
+      <DependentUpon>YourMeds.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
